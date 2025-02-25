@@ -1,2 +1,21 @@
-
-<h3>Side bar</h3>
+<p-drawer
+  [(visible)]="dataService.isSidebarOpen"
+  [modal]="false"
+  [style]="{ top: '50px', height: 'calc(100% - 50px)', width: '240px' }"
+>
+  <ng-template #headless>
+    <nav>
+      <ul>
+        <li>
+          <a href="#">Home</a>
+        </li>
+        <li>
+          <a href="#">About</a>
+        </li>
+        <li>
+          <a href="#">Contacts</a>
+        </li>
+      </ul>
+    </nav>
+  </ng-template>
+</p-drawer>

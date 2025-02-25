@@ -8,12 +8,8 @@ import { SideBarComponent } from './global-components/side-bar/side-bar.componen
   selector: 'app-root',
   templateUrl: './app.component.html',
   styleUrl: './app.component.scss',
-  imports: [
-    MainHeaderComponent,
-    MainContentComponent,
-    SideBarComponent,
-  ]
+  imports: [MainHeaderComponent, MainContentComponent, SideBarComponent],
 })
 export class AppComponent {
-  title = 'UPS';
+  
 }

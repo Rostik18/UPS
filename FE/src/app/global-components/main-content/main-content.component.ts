@@ -9,5 +9,4 @@ import { RouterOutlet } from '@angular/router';
   //styleUrl: './main-content.component.scss'
 })
 export class MainContentComponent {
-  title = 'UPS';
 }
