@@ -1,3 +1,5 @@
 
-<h5>Main Content</h5>
-<router-outlet />
+<div class="content" [ngStyle]="{'margin-left': dataService.isSidebarOpen() ? '240px' : '0'}">
+  <router-outlet />
+  Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ex vel veniam beatae ducimus velit facere vitae magnam ea ipsum officiis, maxime quos dolor provident dicta quis eos, omnis unde. Praesentium.
+</div>
