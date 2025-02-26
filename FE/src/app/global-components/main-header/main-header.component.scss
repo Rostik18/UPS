@@ -1,0 +1,17 @@
+.header-wrapper {
+  display: flex;
+  align-items: center;
+  height: 50px;
+  padding: 0 16px;
+  border-bottom: 1px solid #ffffff1a;
+
+  .logo {
+    margin: 0 16px;
+    font-size: 32px;
+    font-weight: bolder;
+    font-family: sans-serif;
+    letter-spacing: 2px;
+    -webkit-text-stroke: 2px;
+    -webkit-text-stroke-color: purple;
+  }
+}
